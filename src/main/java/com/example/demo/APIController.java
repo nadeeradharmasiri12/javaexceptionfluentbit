@@ -13,7 +13,7 @@ public class APIController {
 		return "Hello K8s...!!!";
 	}
 	
-	@GetMapping("/error")
+	@GetMapping("/errortest")
 	public ResponseEntity<String> exceptionMethod() {
 	    String errorMessage;
 	    try {
